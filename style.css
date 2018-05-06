@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+    background:url(images/skanebeskard.jpg) no-repeat center center fixed;
+    background-size:cover;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    height: 70px;
+    width: 100vw;
+    padding: 10px 0;
+    background-color: #fcfcfc;
+}
+
+header img {
+    height: 100%;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100vw;
+    min-height: 50vh;
+    padding-top: 70px;
+    color: white;
+}
+
+section {
+    background: rgba(34,34,34,0.7);
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+#welcome {
+    /* padding: 5vh 0; */
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10vh;
+
+}
+
+#welcome a {
+    color: white !important;
+    text-decoration: none;
+}
+
+#welcome div img {
+    min-height: 150px;
+    height: 20vh;
+    max-width: 400px;
+}
+
+#arrow {
+    height: 57px;
+    width: 19px;
+    position: absolute;
+    bottom: 3vh;
+}
+#arrow img {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+
+}
+
+#about-jan {
+    margin-top: 105px;
+    padding-top: 80px;
+    
+}
+
+#about-jan img {
+    min-height: 150px;
+    height: 40vh;
+    max-width: 400px;
+}
+
+#about-jan div {
+    padding: 25px 25px 0;
+}
